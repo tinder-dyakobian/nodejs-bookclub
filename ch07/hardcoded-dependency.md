@@ -33,6 +33,11 @@ Don't test private functions
 
 How do you guys keep your module testable?
 
+
+"If you think its going to be to hard to test your module, then you should break it into smaller testable modules."
+
+"Add a utils file inside your module folder, but prefer coming up with a reusable abstraction."
+
 ### Socratic Seminar
 1. Talk to each other, try to refer to evidence from the text
 2. Ask questions if you do not understand what someone has said.
