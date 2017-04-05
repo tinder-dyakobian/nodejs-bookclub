@@ -16,6 +16,7 @@
     - Use camelCase when you export-default a function. Your filename should be identical to your function's name. (AirBnb 22.7)
     -  Use PascalCase when you export a constructor / class / singleton / function library / bare object. (AirBnb 22.8)
     -  Use kibob-case for folders and npm package names, *generally* favour clear and "boring" names for better discoverability and code clarity.
+    -  Prefix controller methods with a simple verb(i.e. jobCreated) and post fix event names with past tense verb (*i.e.* jobCreated)
 3. **Small Focus**: Strip away code that doesn't belong in the module, keeping the entry point focused and narrow. 
 4. **Discoverability**
     - Include a README.md in your module folder
